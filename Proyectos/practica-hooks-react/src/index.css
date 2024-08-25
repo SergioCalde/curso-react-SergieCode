@@ -1,0 +1,9 @@
+body{
+  background-color: rgb(54, 54, 54);
+  color: #ffffff;
+  padding: 1% 2%;
+}
+
+button {
+  margin: 5px;
+}
