@@ -5,7 +5,8 @@ import { useState } from "react"
 export const AgregarTarea = ({ agregarTarea }) => {
 
     const [inputValue, setinputValue] = useState('')
-    const onInputChange = ({ target}) => {
+    
+    const onInputChange = ({ target }) => {
         setinputValue( target.value )
     }
 
