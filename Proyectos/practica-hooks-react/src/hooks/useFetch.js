@@ -1,9 +1,7 @@
-/* eslint-disable no-undef */
 import { useState, useEffect } from "react"
 
 export const useFetch = (url) => {
-    
-    // eslint-disable-next-line no-unused-vars
+     
     const [state, setstate] = useState({
         data : null,
         isLoading: true,

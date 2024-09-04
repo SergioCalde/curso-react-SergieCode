@@ -22,7 +22,6 @@ export const UsuariosComponent = () => {
 
                     {data.map(user => {
                         return (
-                            // eslint-disable-next-line react/jsx-key
                             <tr key={user.id}>
                                 <th scope="row">{ user.id }</th>
                                 <td>{ user.name }</td>
