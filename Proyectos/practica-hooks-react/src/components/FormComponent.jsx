@@ -18,7 +18,6 @@ export const FormComponent = () => {
     };
 
   return (
-    <>
         <form onSubmit={ onSubmit }>
             <div className="mb-3">
             <label 
@@ -69,6 +68,5 @@ export const FormComponent = () => {
                 >Submit
             </button>
         </form>
-    </>
   )
 }
